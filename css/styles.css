@@ -112,20 +112,32 @@ li {
 .onesection-title {
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.07;
+    line-height: 1.07143;
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
-}
-.onesection-button {
+    box-sizing: border-box;
+    padding: 188px 331px 42px 331px;
+    }
+
+.button {
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: #fff;
     cursor: pointer;
     background-color: #4D5AE5;
+}
+.onesection-button {
+    border-radius: 4px;
+    color: #fff;
+    padding: 16px 32px;
+    width: 169px;
+    height: 56px;
+    background: #4d5ae5;
+    margin-right: 496px;
+    margin-left: 496px;
 }
 
 .onesection-button:hover {
@@ -136,10 +148,22 @@ li {
 }
 .twosection {
     background-color: #FFFFFF;
-    };
+    }
     
-.section-li {
+.twosection-ul {
+    width: 1128px;
+    height: 112px;
+    margin-top: 123px;
+    margin-bottom: 106px;
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+.twosection-li {
     background-color: #FFFFFF;
+    width: 264px;
+    height: 112px;
+    width: calc((100% / 3) * 24px / 4);
 }
 .twosection-title {
     font-weight: 700;
@@ -148,23 +172,30 @@ li {
     letter-spacing: 0.02em;
     text-align: center;
 }
+
 .section-title-scr {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    text-align: left;
+    padding-bottom: 8px;
 }
 .section-text {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    text-align: left;
 }
 .threesection {
     background-color: #F4F4FD;
 }
 
+.section-li {
+    background-color: #F4F4FD;
+}
 .threesection-title {
     font-weight: 500;
     font-size: 36px;
