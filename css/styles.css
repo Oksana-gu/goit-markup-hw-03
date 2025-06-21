@@ -5,18 +5,19 @@ body {
 }
 
 h1, h2, h3, h4, p {
-    margin: 0;
+    margin: 0 auto;
 }
 
 li {
     list-style-type: none;
-    margin: 0;
+    margin: 0 auto;
 }
 .container {
     width: 1158px;
+    margin-right: auto;
+    margin-left: auto;
 }
 .header {
-    width: 1440px;
     height: 72px;
     padding-bottom: 24px;
     padding-top: 24px;
@@ -115,8 +116,8 @@ li {
     line-height: 1.07143;
     letter-spacing: 0.02em;
     text-align: center;
-    color: #fff;
     box-sizing: border-box;
+    color: #fff;
     padding: 188px 331px 42px 331px;
     }
 
@@ -128,6 +129,7 @@ li {
     letter-spacing: 0.04em;
     cursor: pointer;
     background-color: #4D5AE5;
+    
 }
 .onesection-button {
     border-radius: 4px;
@@ -152,9 +154,7 @@ li {
     
 .twosection-ul {
     width: 1128px;
-    height: 112px;
-    margin-top: 123px;
-    margin-bottom: 106px;
+    margin: 123px 15px 106px 15px;
     display: flex;
     justify-content: space-between;
     gap: 24px;
@@ -162,7 +162,6 @@ li {
 .twosection-li {
     background-color: #FFFFFF;
     width: 264px;
-    height: 112px;
     width: calc((100% / 3) * 24px / 4);
 }
 .twosection-title {
@@ -171,6 +170,16 @@ li {
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 
 .section-title-scr {
@@ -180,7 +189,6 @@ li {
     letter-spacing: 0.02em;
     color: #2e2f42;
     text-align: left;
-    padding-bottom: 8px;
 }
 .section-text {
     font-weight: 400;
@@ -191,10 +199,21 @@ li {
 }
 .threesection {
     background-color: #F4F4FD;
+    height: 732px;
 }
 
 .section-li {
     background-color: #F4F4FD;
+    border-radius: 0 0 4px 4px;
+    padding: 0px 0px 32px 0px;
+    width: 264px;
+    height: 380px;
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+    background: #fff;
+    width: calc((100% / 3) * 24px / 4);
+}
+.threesection-div {
+    padding: 32px 16px;
 }
 .threesection-title {
     font-weight: 500;
@@ -204,8 +223,14 @@ li {
     text-align: center;
     color: #2e2f42;
     text-transform: capitalize;
+    padding: 120px 498px 72px 498px;
 }
-
+.threesection-ul {
+    margin: 232 15px 120px 15px;
+    display: flex;
+    gap: 24x;
+    justify-content: space-between;
+}
 .threesection-title-scr {
     font-weight: 500;
     font-size: 20px;
@@ -214,12 +239,18 @@ li {
     color: #2e2f42;
     text-align: center;
 }
+
 .threesection-text {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
+}
+.foursection-div {
+    width: 1128px;
+    height: 1000px;
+    margin: 120px 15px;
 }
 .foursection-title {
     font-weight: 700;
@@ -229,6 +260,22 @@ li {
     text-align: center;
     color: #2e2f42;
     text-transform: capitalize;
+    margin-top: auto;
+    margin: auto;
+    padding-top: 0; 
+    padding-bottom: 72px; 
+}
+.foursection-ul {
+   display: flex; 
+   row-gap: 48px;
+   column-gap: 24px;
+   flex-wrap: wrap;
+}
+.foursection-li {
+    border: 1px solid #e7e9fc;
+    width: 360px;
+    height: 420px;
+    width: calc((100% - 48px) / 3);
 }
 
 .footer {
