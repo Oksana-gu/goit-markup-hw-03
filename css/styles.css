@@ -17,18 +17,12 @@ img {
 }
 .container {
     width: 1158px;
-    margin-right: auto;
-    margin-left: auto;
+    margin: 0 auto;
+    padding: 0 15px;
 }
 
 .header {
     border-bottom: 1px solid #e7e9fc;
-}
-
-.header-container {
-    width: 1158px;
-    margin: 0 auto;
-    padding: 0 15px;
 }
 
 .header-navig {
@@ -41,7 +35,7 @@ img {
     align-items: center;
 }
 
-.navig-link {
+.header-navig-link {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -53,7 +47,7 @@ img {
     margin-right: 76px;
 }
 
-.navig-link-span {
+.header-navig-link-span {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -64,12 +58,12 @@ img {
     text-decoration: none;
 }
 
-.header-ulll {
+.header-nav-ul {
     display: flex;
     gap: 40px;
 }
 
-.webb-title {
+.header-nav-li-a {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -80,24 +74,24 @@ img {
     padding: 24px 0;
 }
 
-.webb-title:hover {
+.header-nav-li-a:hover {
     color: #404bbf;
 }
 
-.webb-title:focus {
+.header-nav-li-a:focus {
     color: #404bbf;
 }
 
-.webb-address {
+.header-address {
     font-style: normal;
 }
 
-.webb-address-ull {
+.header-address-ul {
     display: flex;
     gap: 40px;
 }
 
-.webb-address-skr {
+.header-address-skr {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -107,11 +101,11 @@ img {
     cursor: pointer;
 }
 
-.webb-address-skr:hover {
+.header-address-skr:hover {
     color: #404bbf;
 }
 
-.webb-address-skr:focus {
+.header-address-skr:focus {
     color: #404bbf;
 }
 
@@ -175,7 +169,7 @@ img {
 .twosection-lii {
     background-color: #FFFFFF;
     width: 264px;
-    width: calc((100% - 3 * 24px) / 4);
+    width: calc((100% - 72px) / 4);
 }
 .twosection-title {
     font-weight: 700;
@@ -209,7 +203,7 @@ img {
     height: 380px;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
     background: #fff;
-    width: calc((100% - 3 * 24px) / 4);
+    width: calc((100% - 72px) / 4);
 }
 .threesection-div {
     padding: 32px 0;
@@ -264,7 +258,7 @@ img {
     text-align: center;
     color: #2e2f42;
     text-transform: capitalize;
-    padding-bottom: 72px; 
+    margin-bottom: 72px; 
 }
 
 .foursection-ull {
@@ -325,6 +319,7 @@ img {
     display: inline-block;
     margin-bottom: 16px;
 }
+
 .footer-link-span{
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -335,6 +330,7 @@ img {
     color: #f4f4fd;
     text-decoration: none;
 }
+
 .footer-text {
     font-weight: 400;
     font-size: 16px;
