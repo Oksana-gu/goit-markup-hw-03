@@ -29,21 +29,19 @@ img {
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
-    display: flex;
-
 }
 
-.header-nav {
+.header-navig {
     display: flex;
     align-items: center;
 }
 
 .header-div {
-display: flex;
-align-items: center;
+    display: flex;
+    align-items: center;
 }
 
-.nav-aaa {
+.navig-link {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -55,7 +53,7 @@ align-items: center;
     margin-right: 76px;
 }
 
-.nav-aaa-span {
+.navig-link-span {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -66,12 +64,12 @@ align-items: center;
     text-decoration: none;
 }
 
-.header-ull {
+.header-ulll {
     display: flex;
     gap: 40px;
 }
 
-.web-title {
+.webb-title {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -82,24 +80,24 @@ align-items: center;
     padding: 24px 0;
 }
 
-.web-title:hover {
+.webb-title:hover {
     color: #404bbf;
 }
 
-.web-title:focus {
+.webb-title:focus {
     color: #404bbf;
 }
 
-.web-address {
+.webb-address {
     font-style: normal;
 }
 
-.web-address-ull {
+.webb-address-ull {
     display: flex;
     gap: 40px;
 }
 
-.web-address-skr {
+.webb-address-skr {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -109,11 +107,11 @@ align-items: center;
     cursor: pointer;
 }
 
-.web-address-skr:hover {
+.webb-address-skr:hover {
     color: #404bbf;
 }
 
-.web-address-skr:focus {
+.webb-address-skr:focus {
     color: #404bbf;
 }
 
@@ -315,7 +313,7 @@ align-items: center;
     padding-bottom: 100px;
 }
 
-.footer-aaa {
+.footer-link {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -327,7 +325,7 @@ align-items: center;
     display: inline-block;
     margin-bottom: 16px;
 }
-.footer-aaa-span{
+.footer-link-span{
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
