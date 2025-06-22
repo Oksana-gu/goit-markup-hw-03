@@ -228,7 +228,7 @@ img {
 
 .threesection-ull {
     display: flex;
-    gap: 24x;
+    gap: 24px;
     justify-content: space-between;
 }
 .threesection-title-scr {
