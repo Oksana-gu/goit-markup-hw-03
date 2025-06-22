@@ -12,24 +12,33 @@ li {
     list-style-type: none;
     margin: 0 auto;
 }
+img {
+    display: block;
+}
 .container {
     width: 1158px;
     margin-right: auto;
     margin-left: auto;
 }
 
+.header {
+    border-bottom: 1px solid #e7e9fc;
+}
+
+.header-container {
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+    display: flex;
+
+}
+
 .header-nav {
     display: flex;
-    flex-grow: 1;
+    align-items: center;
 }
 
-.header-ul {
-    display: flex;
-    gap: 40px;
-    flex-direction: row;
-}
-
-.nav-a {
+.nav-aaa {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -38,9 +47,10 @@ li {
     text-transform: uppercase;
     color: #4d5ae5;
     text-decoration: none;
+    margin-right: 76px;
 }
 
-.nav-a-span {
+.nav-aaa-span {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -49,6 +59,11 @@ li {
     text-transform: uppercase;
     color: #2e2f42;
     text-decoration: none;
+}
+
+.header-ull {
+    display: flex;
+    gap: 40px;
 }
 
 .web-title {
@@ -59,6 +74,7 @@ li {
     color: #2e2f42;
     text-decoration: none;
     cursor: pointer;
+    padding: 24px 0;
 }
 
 .web-title:hover {
@@ -73,7 +89,7 @@ li {
     font-style: normal;
 }
 
-.web-address-ul {
+.web-address-ull {
     display: flex;
     gap: 40px;
 }
@@ -98,7 +114,7 @@ li {
 
 .onesection {
     background-color: #2e2f42;
-    height: 600px;
+    padding: 188px 0;
 }
 .onesection-title {
     font-weight: 700;
@@ -108,7 +124,7 @@ li {
     text-align: center;
     box-sizing: border-box;
     color: #fff;
-    padding: 188px 331px 42px 331px;
+    max-width: 496px;
     }
 
 .button {
@@ -117,7 +133,6 @@ li {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    cursor: pointer;
     background-color: #4D5AE5;
     
 }
@@ -125,11 +140,15 @@ li {
     border-radius: 4px;
     color: #fff;
     padding: 16px 32px;
-    width: 169px;
+    min-width: 169px;
     height: 56px;
     background: #4d5ae5;
     margin-right: 496px;
     margin-left: 496px;
+    display: block;
+    border: none;
+    cursor: pointer;
+    margin-top: 48px;
 }
 
 .onesection-button:hover {
@@ -140,19 +159,20 @@ li {
 }
 .twosection {
     background-color: #FFFFFF;
+    padding: 120px 0 120px 0;
     }
     
-.twosection-ul {
+.twosection-ull {
     width: 1128px;
     margin: 123px 15px 106px 15px;
     display: flex;
     justify-content: space-between;
     gap: 24px;
 }
-.twosection-li {
+.twosection-lii {
     background-color: #FFFFFF;
     width: 264px;
-    width: calc((100% / 3) * 24px / 4);
+    width: calc((100% - 3 * 24px) / 4);
 }
 .twosection-title {
     font-weight: 700;
@@ -172,27 +192,13 @@ li {
     overflow: hidden;
 }
 
-.section-title-scr {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-    text-align: left;
-}
-.section-text {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    text-align: left;
-}
 .threesection {
     background-color: #F4F4FD;
     height: 732px;
+    padding: 120px 0 120px 0;
 }
 
-.section-li {
+.section-lii {
     background-color: #F4F4FD;
     border-radius: 0 0 4px 4px;
     padding: 0px 0px 32px 0px;
@@ -200,11 +206,12 @@ li {
     height: 380px;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
     background: #fff;
-    width: calc((100% / 3) * 24px / 4);
+    width: calc((100% - 3 * 24px) / 4);
 }
 .threesection-div {
-    padding: 32px 16px;
+    padding: 32px 0;
 }
+
 .threesection-title {
     font-weight: 500;
     font-size: 36px;
@@ -213,10 +220,10 @@ li {
     text-align: center;
     color: #2e2f42;
     text-transform: capitalize;
-    padding: 120px 498px 72px 498px;
+    margin-bottom: 72px;
 }
-.threesection-ul {
-    margin: 232 15px 120px 15px;
+
+.threesection-ull {
     display: flex;
     gap: 24x;
     justify-content: space-between;
@@ -228,6 +235,7 @@ li {
     letter-spacing: 0.02em;
     color: #2e2f42;
     text-align: center;
+    margin-bottom: 8px;
 }
 
 .threesection-text {
@@ -237,10 +245,13 @@ li {
     letter-spacing: 0.02em;
     text-align: center;
 }
+
+.foursection {
+    padding: 120px 0 120px 0;
+}
 .foursection-div {
     width: 1128px;
     height: 1000px;
-    margin: 120px 15px;
 }
 .foursection-title {
     font-weight: 700;
@@ -250,19 +261,16 @@ li {
     text-align: center;
     color: #2e2f42;
     text-transform: capitalize;
-    margin-top: auto;
-    margin: auto;
-    padding-top: 0; 
     padding-bottom: 72px; 
 }
-.foursection-ul {
+
+.foursection-ull {
    display: flex; 
    row-gap: 48px;
    column-gap: 24px;
    flex-wrap: wrap;
 }
-.foursection-li {
-    border: 1px solid #e7e9fc;
+.foursection-lii {
     width: 360px;
     height: 420px;
     width: calc((100% - 48px) / 3);
@@ -271,20 +279,38 @@ li {
     max-width: 100%;
     display: block;
 }
-.foursection-li-div {
+.foursection-lii-div {
     padding: 32px 16px;
+    border: 1px solid #e7e9fc; 
+    border-top: none;
+}
+
+.section-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
+
+.section-title-scr {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    text-align: left;
+    margin-bottom: 8px;
 }
 
 .footer {
     background-color: #2e2f42;
     height: 312px;
-}
-.footer-div {
-    box-sizing: border-box;
     padding-top: 100px;
     padding-bottom: 100px;
 }
-.footer-a {
+
+.footer-aaa {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -293,8 +319,10 @@ li {
     text-transform: uppercase;
     color: #4d5ae5;
     text-decoration: none;
+    display: inline-block;
+    margin-bottom: 16px;
 }
-.footer-a-span{
+.footer-aaa-span{
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -310,7 +338,10 @@ li {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
-    padding-top: 16px;
-    padding-right: 879px;
+    max-width: 264px;
 }
 
+.footer-div {
+    box-sizing: border-box;
+    width: 264px;
+}
